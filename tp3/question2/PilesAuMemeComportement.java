@@ -10,7 +10,7 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
     /**
      * Met en place les engagements.
      *
-     * MÃ©thode appelÃ©e avant chaque appel de mÃ©thode de test.
+     * Méthode appelée avant chaque appel de méthode de test.
      */
     protected void setUp() // throws java.lang.Exception
     {
@@ -23,11 +23,11 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
     /**
      * Supprime les engagements
      *
-     * MÃ©thode appelÃ©e aprÃ¨s chaque appel de mÃ©thode de test.
+     * Méthode appelée après chaque appel de méthode de test.
      */
     protected void tearDown() // throws java.lang.Exception
     {
-        //LibÃ©rez ici les ressources engagÃ©es par setUp()
+        //Libérez ici les ressources engagées par setUp()
     }
 
     public void test_Sommaire()  throws Exception {
@@ -63,7 +63,7 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         p2.empiler("aze");
         p1.empiler("aze");
 
-        assertEquals("p1.capacitÃ©() == p2.capacitÃ©() ??",p1.capacite(), p2.capacite());
+        assertEquals("p1.capacité() == p2.capacité() ??",p1.capacite(), p2.capacite());
         assertEquals("p2.capacite() == p3.capacite() ??",p2.capacite(), p3.capacite());
         assertEquals("p3.capacite() == p4.capacite() ??",p3.capacite(), p4.capacite());
 
@@ -80,18 +80,18 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         assertEquals("p2.estPleine()!=  p3.estPleine() ??? ",p2.estPleine(), p3.estPleine());
 
         String s = (String) p1.depiler();
-        assertEquals(" diffÃ©rence aprÃ¨s avoir dÃ©pilÃ© ?? ", s, (String) p2.depiler());
-        assertEquals(" diffÃ©rence aprÃ¨s avoir dÃ©pilÃ© ?? ",s, (String) p3.depiler());
-        assertEquals(" diffÃ©rence aprÃ¨s avoir dÃ©pilÃ© ?? ",s, (String) p4.depiler());
+        assertEquals(" différence après avoir dépilé ?? ", s, (String) p2.depiler());
+        assertEquals(" différence après avoir dépilé ?? ",s, (String) p3.depiler());
+        assertEquals(" différence après avoir dépilé ?? ",s, (String) p4.depiler());
 
         assertEquals("p1.estVide() != p2.estVide() ??? ",p1.estVide(), p2.estVide());
         assertEquals("p2.estVide()!= p3.estVide() ??? ", p2.estVide(), p3.estVide());
         assertEquals("p1.estPleine() != p2.estPleine() ??? ",p1.estPleine(), p2.estPleine());
         assertEquals("p2.estPleine()!=  p3.estPleine() ??? ",p2.estPleine(), p3.estPleine());
 
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p1.taille(), p2.taille());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p2.taille(), p3.taille());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p3.taille(), p4.taille());
+        assertEquals(" différence sur la taille() ?? ",p1.taille(), p2.taille());
+        assertEquals(" différence sur la taille() ?? ",p2.taille(), p3.taille());
+        assertEquals(" différence sur la taille() ?? ",p3.taille(), p4.taille());
 
         p4.empiler("azerty");
         p3.empiler("azerty");
@@ -104,9 +104,9 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         assertEquals("p2.estVide()!= p3.estVide() ??? ", p2.estVide(), p3.estVide());
         assertEquals("p1.estPleine() != p2.estPleine() ??? ",p1.estPleine(), p2.estPleine());
         assertEquals("p2.estPleine()!=  p3.estPleine() ??? ",p2.estPleine(), p3.estPleine());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p1.taille(), p2.taille());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p2.taille(), p3.taille());
-        assertEquals(" diffÃ©rence  sur la taille() ?? ",p3.taille(), p4.taille());
+        assertEquals(" différence sur la taille() ?? ",p1.taille(), p2.taille());
+        assertEquals(" différence sur la taille() ?? ",p2.taille(), p3.taille());
+        assertEquals(" différence  sur la taille() ?? ",p3.taille(), p4.taille());
 
         p4.empiler("azer");
         p3.empiler("azer");
@@ -125,9 +125,9 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         assertEquals("p1.estPleine() != p2.estPleine() ??? ",p1.estPleine(), p2.estPleine());
         assertEquals("p2.estPleine()!=  p3.estPleine() ??? ",p2.estPleine(), p3.estPleine());
 
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p1.taille(), p2.taille());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p2.taille(), p3.taille());
-        assertEquals(" diffÃ©rence  sur la taille() ?? ",p3.taille(), p4.taille());
+        assertEquals(" différence sur la taille() ?? ",p1.taille(), p2.taille());
+        assertEquals(" différence sur la taille() ?? ",p2.taille(), p3.taille());
+        assertEquals(" différence  sur la taille() ?? ",p3.taille(), p4.taille());
 
         p4.empiler("azer");
         p3.empiler("azer");
@@ -146,9 +146,9 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         assertEquals("p1.estPleine() != p2.estPleine() ??? ",p1.estPleine(), p2.estPleine());
         assertEquals("p2.estPleine()!=  p3.estPleine() ??? ",p2.estPleine(), p3.estPleine());
 
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p1.taille(), p2.taille());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p2.taille(), p3.taille());
-        assertEquals(" diffÃ©rence  sur la taille() ?? ",p3.taille(), p4.taille());
+        assertEquals(" différence sur la taille() ?? ",p1.taille(), p2.taille());
+        assertEquals(" différence sur la taille() ?? ",p2.taille(), p3.taille());
+        assertEquals(" différence  sur la taille() ?? ",p3.taille(), p4.taille());
 
         p4.depiler();
         p3.depiler();
@@ -167,10 +167,36 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
         assertEquals("p1.estPleine() != p2.estPleine() ??? ",p1.estPleine(), p2.estPleine());
         assertEquals("p2.estPleine()!=  p3.estPleine() ??? ",p2.estPleine(), p3.estPleine());
 
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p1.taille(), p2.taille());
-        assertEquals(" diffÃ©rence sur la taille() ?? ",p2.taille(), p3.taille());
-        assertEquals(" diffÃ©rence  sur la taille() ?? ",p3.taille(), p4.taille());
+        assertEquals(" différence sur la taille() ?? ",p1.taille(), p2.taille());
+        assertEquals(" différence sur la taille() ?? ",p2.taille(), p3.taille());
+        assertEquals(" différence  sur la taille() ?? ",p3.taille(), p4.taille());
 
     }
+    
+    public void test_equals() throws Exception{
+        p1.empiler(1);
+        p1.empiler(2);
+        p1.empiler(3);
+        p1.empiler(4);
+        
+        p2.empiler(1);
+        p2.empiler(2);
+        p2.empiler(3);
+        p2.empiler(4);
+        
+        p3.empiler(1);
+        p3.empiler(2);
+        p3.empiler(3);
+        p3.empiler(4);
+        
+        p4.empiler(1);
+        p4.empiler(2);
+        p4.empiler(3);
+        p4.empiler(4);
+        
+        assertTrue(p1.equals(p2));
+        assertTrue(p2.equals(p3));
+        assertTrue(p3.equals(p4));
+        assertTrue(p4.equals(p1));
+    }
 }
-

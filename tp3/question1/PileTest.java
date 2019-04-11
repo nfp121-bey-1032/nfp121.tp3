@@ -1,11 +1,11 @@
 package question1;
 
 public class PileTest extends junit.framework.TestCase {
-    // DÃ©finissez ici les variables d'instance nÃ©cessaires Ã  vos engagements;
-    // Vous pouvez Ã©galement les saisir automatiquement du prÃ©sentoir
-    // Ã  l'aide du menu contextuel "PrÃ©sentoir --> Engagements".
+    // Définissez ici les variables d'instance nécessaires à vos engagements;
+    // Vous pouvez également les saisir automatiquement du présentoir
+    // à l'aide du menu contextuel "Présentoir --> Engagements".
     // Notez cependant que ce dernier ne peut saisir les objets primitifs
-    // du prÃ©sentoir (les objets sans constructeur, comme int, float, etc.).
+    // du présentoir (les objets sans constructeur, comme int, float, etc.).
 
     /**
      * Constructeur de la classe-test PileTest
@@ -16,7 +16,7 @@ public class PileTest extends junit.framework.TestCase {
     /**
      * Met en place les engagements.
      * 
-     * MÃ©thode appelÃ©e avant chaque appel de mÃ©thode de test.
+     * Méthode appelée avant chaque appel de méthode de test.
      */
     protected void setUp() // throws java.lang.Exception
     {
@@ -26,19 +26,19 @@ public class PileTest extends junit.framework.TestCase {
     /**
      * Supprime les engagements
      * 
-     * MÃ©thode appelÃ©e aprÃ¨s chaque appel de mÃ©thode de test.
+     * Méthode appelée après chaque appel de méthode de test.
      */
     protected void tearDown() // throws java.lang.Exception
     {
-        // LibÃ©rez ici les ressources engagÃ©es par setUp()
+        // Libérez ici les ressources engagées par setUp()
     }
 
     /**
-     * Il ne vous reste plus qu'Ã  dÃ©finir une ou plusieurs mÃ©thodes de test. Ces
-     * mÃ©thodes doivent vÃ©rifier les rÃ©sultats attendus Ã  l'aide d'assertions
-     * assertTrue(<boolean>). Par convention, leurs noms devraient dÃ©buter par
-     * "test". Vous pouvez Ã©baucher le corps grÃ¢ce au menu contextuel
-     * "Enregistrer une mÃ©thode de test".
+     * Il ne vous reste plus qu'à définir une ou plusieurs méthodes de test. Ces
+     * méthodes doivent vérifier les résultats attendus à l'aide d'assertions
+     * assertTrue(<boolean>). Par convention, leurs noms devraient débuter par
+     * "test". Vous pouvez ébaucher le corps grâce au menu contextuel
+     * "Enregistrer une méthode de test".
      */
 
     public void testEncourageant(){
